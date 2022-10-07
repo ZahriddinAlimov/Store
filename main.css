@@ -1,6 +1,9 @@
 .body, h1, h2, h3, ul {
     margin: 0;
     }
+    #clr{
+        clear: both;
+    }
     #headr {
         background-color: rgb(223, 142, 113);
     }
@@ -26,7 +29,7 @@
         display: inline;
         
     }
-    #navbar ul li{
+    #navbar ul li a{
         text-align: center;
         text-decoration: none;
         color: #fff;
@@ -56,11 +59,11 @@
     
     #main{
         color: rgb(129, 121, 121);
-        margin-top: 25px;
+        margin-top: 50px;
     }
 
     #main h2{
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     
     .chap{
@@ -86,7 +89,7 @@
     background-color: #333;
     color: #fff;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 150px;
     font-family: sans-serif;
     padding: 15px 0;
 }
