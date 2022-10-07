@@ -1,3 +1,41 @@
-h1 {
-    background-color: yellow;
-}
+.body, h1, h2, h3, ul {
+    margin: 0;
+    }
+    #headr {
+        background-color: coral;
+    }
+    .boshi{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+    #headr h1{
+        color: #fff;
+        font-family: sans-serif;
+        padding: 10px;
+    }
+    #navbar{
+        background-color: #333;
+    }
+    #navbar ul li{
+        list-style-type: none;
+        display: inline;
+    }
+    #navbar ul li{
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        padding: 4px 8px;
+        display: inline-block;
+        font-family: sans-serif;
+    }
+    #navbar ul li :first-child a{
+        padding-left: 0;
+    
+    }
+    
+    
+    
