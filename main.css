@@ -2,7 +2,7 @@
     margin: 0;
     }
     #headr {
-        background-color: coral;
+        background-color: rgb(223, 142, 113);
     }
     .boshi{
         width: 100%;
@@ -16,6 +16,7 @@
         color: #fff;
         font-family: sans-serif;
         padding: 10px;
+        text-align: center;
     }
     #navbar{
         background-color: #333;
@@ -23,6 +24,7 @@
     #navbar ul li{
         list-style-type: none;
         display: inline;
+        
     }
     #navbar ul li{
         text-align: center;
@@ -38,17 +40,55 @@
     }
 
     #rasm{
-        background-image: url(./tog2.jpg);
-        background-position: center left;
-        min-height: 250px;
+        background-image: url(./tog.jpg);
+        background-position: center ;
+        min-height: 200px;
     }
 
     #rasm h1{
-        text-align: center;
         color: #fff;
-        font-size: 25px;
-
+        font-size: 50px;
+        font-family: sans-serif;
+        padding-top: 40px;
+        text-align: center;
 
     }
+    
+    #main{
+        color: rgb(129, 121, 121);
+        margin-top: 25px;
+    }
+
+    #main h2{
+        margin-bottom: 15px;
+    }
+    
+    .chap{
+        float: left;
+        width: 60%;
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+    .ong{
+        float: left;
+        width: 40%;
+        background-color: #333;
+        color: #fff;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        padding-right: 10px;
+    }
+.clr{
+    clear: both;
+}
+
+#footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    padding: 15px 0;
+}
     
     
