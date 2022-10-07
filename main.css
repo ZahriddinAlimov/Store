@@ -36,6 +36,19 @@
         padding-left: 0;
     
     }
-    
+
+    #rasm{
+        background-image: url(./tog2.jpg);
+        background-position: center left;
+        min-height: 250px;
+    }
+
+    #rasm h1{
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+
+
+    }
     
     
